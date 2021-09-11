@@ -1,2 +1,2 @@
-# Sementer-1
+# Semester-1
 Materi dan Latihan
