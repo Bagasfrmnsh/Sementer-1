@@ -1,0 +1,7 @@
+<?php
+function Biodata($nama,jk) {
+    echo "Nama Anda : " . $nama . "<br/>";
+    echo "Umur anda : " .umur(190,2021). "<br/>;
+}
+Biodata("Bagas","Laki-Laki");
+?>
