@@ -23,6 +23,7 @@
      echo "Luasnya : ".$this->luas_persegi."<br>";
      echo "Kelilingnya : ".$this->keliling_persegi."<hr>";
 
+
    }
 }
 class persegi_panjang extends bangun_datar{
@@ -35,7 +36,7 @@ class persegi_panjang extends bangun_datar{
       $this->luas_persegip = $panjang * $lebar;
       $this ->keliling_persegip = 2 * $panjang + $lebar;
       echo "Luasnya : ".$this->luas_persegip."<br>";
-      echo "Kelilingnya : ".$this->keliling_persegip."<hr>";
+      
       
     }
  }
@@ -49,7 +50,6 @@ class persegi_panjang extends bangun_datar{
       $this->luas_segitiga = $alas * $tinggi /2 ;
       $this->keliling_segitiga = $s + $s + $s;
       echo "Luasnya : ".$this->luas_segitiga."<br>";
-      echo "Kelilingnya : ".$this->keliling_segitiga."<hr>";
       
     }
  }
@@ -62,7 +62,6 @@ class persegi_panjang extends bangun_datar{
       $this->luas_lingkaran = $jari * $jari * $phi ;
       $this->keliling_lingkaran = 2 *$phi * $jari;
       echo "Luasnya : ".$this->luas_lingkaran."<br>";
-      echo "Kelilingnya : ".$this->keliling_lingkaran;
       
     }
  }
